@@ -6,29 +6,28 @@ h1, h2 {
   font-family: Montserrat, sans-serif;
 }
 
-
 nav, footer {
-  color: #E2D8CD;
-  background-color: #271A02;
+  color: #e2d8cd;
+  background-color: #271a02;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #E2D8CD;
+  color: #e2d8cd;
 }
 
 .banner, .cats {
-  background-color: #E2D8CD;
+  background-color: #e2d8cd;
 }
 
 .steps {
-  color: #271A02;
+  color: #271a02;
   border-radius: 3px;
-  transition: all .1s linear;
+  transition: all .15s linear;
 }
 
 .steps:focus, .steps:hover {
-  background-color: #896D50;
+  background-color: #896d50;
 }
 
 .facebook {
@@ -40,6 +39,7 @@ nav ul li a {
   border-color: #9ab5ea;
   color: #fff;
   text-decoration: none;
+  transition: all .15s linear;
 }
 
 .btn-ghost:focus, .btn-ghost:hover {
