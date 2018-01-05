@@ -11,13 +11,28 @@ nav, footer {
   background-color: #271a02;
 }
 
-nav ul li a {
+.navlink {
   text-decoration: none;
   color: #e2d8cd;
+  transition: all .15s linear;
+  border-radius: 3px;
 }
 
-.banner, .cats {
+.navlink1 {
+  margin-left: .7rem;
+}
+
+.navlink:focus, .navlink:hover {
+  text-decoration: underline;
+  background-color: #896d50;
+}
+
+.banner, .cats, .stories {
   background-color: #e2d8cd;
+}
+
+.about, .donate {
+  background-color: #efe9de;
 }
 
 .steps {
@@ -27,6 +42,7 @@ nav ul li a {
 }
 
 .steps:focus, .steps:hover {
+  text-decoration: underline;
   background-color: #896d50;
 }
 
