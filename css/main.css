@@ -151,7 +151,7 @@ nav, footer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .9);
 }
 
-.adoptlink {
+.adoptlink, .fineprint {
   color: #000;
   text-decoration: none;
 }
