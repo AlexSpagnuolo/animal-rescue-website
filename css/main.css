@@ -173,6 +173,10 @@ nav, footer {
     top: 1em;
   }
 
+  .donatepic {
+    margin-left: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 30em) {
