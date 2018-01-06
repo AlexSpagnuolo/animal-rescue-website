@@ -161,6 +161,20 @@ nav, footer {
   text-decoration: underline;
 }
 
+.adoptcard, .adoptpic {
+  background-color: #efe9de;
+  text-decoration: none;
+  color: #000;
+  border-radius: 3px;
+  transition: all .15s linear;
+}
+
+.adoptcard:hover, .adoptcard:focus {
+  background-color: #896d50;
+  color: #efe9de;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .9);
+}
+
 @media only screen and (min-width: 1em) {
 
   .storiesdiv {
