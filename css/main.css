@@ -71,14 +71,6 @@ nav, footer {
   padding-bottom: .5em;
 }
 
-@media only screen and (min-width: 30em) {
-
-  .current {
-    padding-bottom: 1.3em;
-  }
-
-}
-
 .current:focus, .current:hover {
   color: #e2d8cd;
   background-color: #171007;
@@ -111,4 +103,98 @@ nav, footer {
   text-decoration: none;
   transition: all .15s linear;
   border-radius: 3px;
+}
+
+.img-flex {
+  border-radius: 5px;
+
+}
+
+.polaroid {
+  width: 100px;
+  transition: all .15s linear;
+  position: absolute;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+}
+
+.polaroid > figcaption {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+
+.polaroid:nth-child(1) {
+  transform: rotate(-10deg);
+  z-index: 1;
+  left: 1em;
+  top: 2em;
+
+}
+
+.polaroid:nth-child(2) {
+  transform: rotate(15deg);
+  z-index: 3;
+  left: 5em;
+  top: 5em;
+
+}
+
+.polaroid:nth-child(3) {
+  transform: rotate(5deg);
+  z-index: 2;
+  left: 9em;
+  top: 2em;
+
+}
+
+.polaroid:hover, .polaroid:focus {
+  z-index: 4;
+  transform: rotate(0deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, .9);
+}
+
+@media only screen and (min-width: 0em) {
+
+  .storiesdiv {
+    padding-bottom: 12em;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .storiesdiv {
+    padding-bottom: 2em;
+  }
+
+  .rescuepics {
+    top: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  .current {
+    padding-bottom: 1.3em;
+  }
+
+  .polaroid {
+    width: 150px;
+  }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  .rescuepics {
+    left: 3em;
+  }
+
+  .polaroid {
+    width: 200px;
+  }
+
 }
