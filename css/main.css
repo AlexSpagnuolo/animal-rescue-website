@@ -48,6 +48,10 @@ nav, footer {
   background-color: #efe9de;
 }
 
+.donatepic {
+  border-radius: 3px;
+}
+
 .steps {
   color: #271a02;
   border-radius: 3px;
