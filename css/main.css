@@ -58,6 +58,13 @@ nav, footer {
   transition: all .15s linear;
 }
 
+.footerlink {
+  color: #e2d8cd;
+  text-decoration: none;
+  transition: all .15s linear;
+  border-radius: 3px;
+}
+
 .steps:focus, .steps:hover, .navlink:focus, .navlink:hover, .footerlink:focus, .footerlink:hover {
   background-color: #896d50;
 }
@@ -98,16 +105,8 @@ nav, footer {
   background-color: #fff;
 }
 
-.footerlink {
-  color: #e2d8cd;
-  text-decoration: none;
-  transition: all .15s linear;
-  border-radius: 3px;
-}
-
-.img-flex {
+.rescuepic {
   border-radius: 5px;
-
 }
 
 .polaroid {
@@ -130,7 +129,6 @@ nav, footer {
   z-index: 1;
   left: 1em;
   top: 2em;
-
 }
 
 .polaroid:nth-child(2) {
@@ -138,7 +136,6 @@ nav, footer {
   z-index: 3;
   left: 5em;
   top: 5em;
-
 }
 
 .polaroid:nth-child(3) {
@@ -146,7 +143,6 @@ nav, footer {
   z-index: 2;
   left: 9em;
   top: 2em;
-
 }
 
 .polaroid:hover, .polaroid:focus {
@@ -155,7 +151,17 @@ nav, footer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .9);
 }
 
-@media only screen and (min-width: 0em) {
+.adoptlink {
+  color: #000;
+  text-decoration: none;
+}
+
+.adoptlink:hover, .adoptlink:focus {
+  color: #000;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1em) {
 
   .storiesdiv {
     padding-bottom: 12em;
