@@ -22,12 +22,8 @@ nav, footer {
   border-radius: 3px;
 }
 
-.current, .aside {
+.aside {
   color: #896d50;
-}
-
-.current:focus, .current:hover, {
-  color: #e2d8cd;
 }
 
 .navlink1 {
@@ -64,6 +60,24 @@ nav, footer {
 
 .steps:focus, .steps:hover > .steptitle {
   color: #e2d8cd;
+}
+
+.current {
+  border-bottom: 10px solid #e2d8cd;
+  padding-bottom: .5em;
+}
+
+@media only screen and (min-width: 30em) {
+
+  .current {
+    padding-bottom: 1.3em;
+  }
+
+}
+
+.current:focus, .current:hover {
+  color: #e2d8cd;
+  background-color: #171007;
 }
 
 .facebook {
