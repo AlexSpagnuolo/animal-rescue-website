@@ -11,6 +11,10 @@ nav, footer {
   background-color: #271a02;
 }
 
+.pointer {
+  cursor: default;
+}
+
 .navlink {
   text-decoration: none;
   color: #e2d8cd;
@@ -32,6 +36,16 @@ nav, footer {
 
 .banner, .cats, .stories {
   background-color: #e2d8cd;
+}
+
+.banner-title {
+  color: #e2d8cd;
+  text-shadow: .07em .07em .07em rgba(0, 0, 0, .8);
+}
+
+.banner-subtitle {
+  color: #896d50;
+  text-shadow: .07em .07em .07em rgba(0, 0, 0, .8);
 }
 
 .about, .donate {
