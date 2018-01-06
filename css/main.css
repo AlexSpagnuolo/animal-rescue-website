@@ -22,11 +22,11 @@ nav, footer {
   border-radius: 3px;
 }
 
-.current {
+.current, .aside {
   color: #896d50;
 }
 
-.current:focus, .current:hover {
+.current:focus, .current:hover, {
   color: #e2d8cd;
 }
 
@@ -58,7 +58,7 @@ nav, footer {
   transition: all .15s linear;
 }
 
-.steps:focus, .steps:hover, .navlink:focus, .navlink:hover {
+.steps:focus, .steps:hover, .navlink:focus, .navlink:hover, .footerlink:focus, .footerlink:hover {
   background-color: #896d50;
 }
 
@@ -86,4 +86,11 @@ nav, footer {
   color: #4267b2;
   border-color: #fff;
   background-color: #fff;
+}
+
+.footerlink {
+  color: #e2d8cd;
+  text-decoration: none;
+  transition: all .15s linear;
+  border-radius: 3px;
 }
