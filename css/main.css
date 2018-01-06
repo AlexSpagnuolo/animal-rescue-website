@@ -161,9 +161,12 @@ nav, footer {
   text-decoration: underline;
 }
 
+.card {
+  text-decoration: none;
+}
+
 .adoptcard, .adoptpic {
   background-color: #efe9de;
-  text-decoration: none;
   color: #000;
   border-radius: 3px;
   transition: all .15s linear;
