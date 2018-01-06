@@ -18,13 +18,16 @@ nav, footer {
   border-radius: 3px;
 }
 
-.navlink1 {
-  margin-left: .7rem;
+.current {
+  color: #896d50;
 }
 
-.navlink:focus, .navlink:hover {
-  text-decoration: underline;
-  background-color: #896d50;
+.current:focus, .current:hover {
+  color: #e2d8cd;
+}
+
+.navlink1 {
+  margin-left: .7rem;
 }
 
 .banner, .cats, .stories {
@@ -41,9 +44,12 @@ nav, footer {
   transition: all .15s linear;
 }
 
-.steps:focus, .steps:hover {
-  text-decoration: underline;
+.steps:focus, .steps:hover, .navlink:focus, .navlink:hover {
   background-color: #896d50;
+}
+
+.steps:focus, .steps:hover > .steptitle {
+  color: #e2d8cd;
 }
 
 .facebook {
@@ -55,6 +61,10 @@ nav, footer {
   border-color: #9ab5ea;
   color: #fff;
   text-decoration: none;
+  transition: all .15s linear;
+}
+
+.btn {
   transition: all .15s linear;
 }
 
