@@ -2,7 +2,7 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-h1, h2 {
+h1, h2, .navtitle {
   font-family: Montserrat, sans-serif;
 }
 
@@ -23,7 +23,7 @@ nav, footer {
 }
 
 .aside {
-  color: #896d50;
+  color: #e2d8cd;
 }
 
 .navlink1 {
@@ -97,6 +97,19 @@ nav, footer {
 
 .btn {
   transition: all .15s linear;
+}
+
+.btn-light {
+  background-color: #333;
+  border-radius: 4px;
+  border: 3px solid #333;
+  color: #fff;
+}
+
+.btn-light:focus, .btn-light:hover {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
 }
 
 .btn-ghost:focus, .btn-ghost:hover {
