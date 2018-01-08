@@ -30,7 +30,7 @@ nav, footer {
   margin-left: .7rem;
 }
 
-.banner, .cats, .stories {
+.banner, .cats, .stories, .form {
   background-color: #e2d8cd;
 }
 
@@ -176,6 +176,14 @@ nav, footer {
   background-color: #896d50;
   color: #efe9de;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, .9);
+}
+
+fieldset {
+  border: 0;
+}
+
+input, select {
+  border-color: #271a02;
 }
 
 @media only screen and (min-width: 1em) {
